@@ -59,7 +59,7 @@ cd portfolio</code></pre>
 </code></pre>
 
 <h2>📷 Capturas de Pantalla</h2>
-![asdf](./src/assets/images/SideyAboutMe.jpg)
+![asdf](./src/assets/images/SideyAboutMe.JPG)
 
 
 <h2>📝 Licencia</h2>
