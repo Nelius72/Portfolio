@@ -1,6 +1,6 @@
 <h1>Portfolio Web Personal</h1>
 
-<p>![Portfolio Web](../assets/images/portfolio.jpg)</p>
+<p>![Portfolio Web](./assets/images/portfolio.jpg)</p>
 
 <p>Este repositorio contiene el código fuente de mi portafolio web personal, desarrollado con <strong>React</strong> y otras tecnologías web modernas. El portafolio tiene como objetivo mostrar mis proyectos, habilidades y experiencia profesional de manera interactiva y visualmente atractiva.</p>
 
