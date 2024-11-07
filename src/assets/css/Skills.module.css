@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #00cfe8;
+  --second-color: #1b1b1b;
+  --third-color: #d4d4d4;
+  --main-grid: repeat(auto-fill, minmax(300px, 1fr));
+  --main-padding: 40px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.skills {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+.skills .text {
+  padding-bottom: 20px;
+}
+
+.skills h2 {
+  font-size: 35px;
+  background: radial-gradient(
+    circle,
+    rgb(218, 140, 51) 0%,
+    rgb(204, 191, 172) 85%,
+    rgba(255, 255, 255, 1) 100%
+  ); /* Define el degradado */
+  -webkit-background-clip: text; /* Clipa el fondo al texto */
+  -webkit-text-fill-color: transparent; /* Hace que el color del texto sea transparente */
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.skills h1 {
+  font-family: "Playpen Sans", cursive;
+  font-size: 2.5em;
+  text-align: center;
+  color: rgb(206, 135, 48);
+  text-decoration: underline;
+}
+
+.skills p {
+  font-size: 18px;
+  color: var(--second-color);
+  font-weight: 400;
+}
+
+.skills .skillcard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  grid-gap: 60px;
+  margin-bottom: 70px;
+  margin-top: 60px;
+}
+
+.skills .skillcard .card {
+  padding-top: 25px;
+  text-align: center;
+  background-color: var(--second-color);
+  border: 3px solid white;
+  color: var(--third-color);
+  transition: 1s;
+  position: relative;
+}
+
+.skills .card h4 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.skills .card h5 {
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.skills .card p {
+  font-size: 15px;
+  color: var(--third-color);
+}
+
+.skills .card i {
+  font-size: 42px;
+  padding: 15px;
+  width: 75px;
+  height: 75px;
+  color: var(--second-color);
+  background-color: rgb(5, 5, 5);
+  position: absolute;
+  top: calc(-75px / 2);
+  transform: rotate(45deg);
+  left: 35%;
+  transition: 1s;
+  border: 2px solid white;
+}
+
+.skills .card:hover {
+  background-color: transparent;
+}
+
+.skills .card:hover i {
+  transform: rotate(0deg);
+  background-color: var(--bg-color);
+}
+
+.skills .card:hover h4,
+.skills .card:hover p {
+  color: darkorange;
+  transition: 1s;
+}
+
+.skills a {
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  border-radius: 2px;
+  color: var(--second-color);
+  transition: background-color 0.8s;
+  padding: 12px 20px;
+  letter-spacing: 1.5px;
+  z-index: 50px;
+  text-decoration: none;
+}
+
+.skills a:hover {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+.hide1 {
+  display: none;
+  margin-left: 5px;
+  margin-right: 10px;
+  color: var(--main-color);
+  font-size: 15px;
+}
+
+.support a:hover + .hide1 {
+  display: block;
+  transition: all 1s;
+}

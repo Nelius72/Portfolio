@@ -1,0 +1,58 @@
+
+
+.side-menu {
+  text-align: left; /* Forzar la alineación a la izquierda */
+  font-family: "Playpen Sans", cursive;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 2px solid white ;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 100vh;
+  list-style-type: none;
+  background: darkorange;
+  overflow: hidden;
+  transition: width 0.3s;
+  border-radius: 10px;
+  display: flex;                  /* Cambia a flex */
+  flex-direction: column;        /* Coloca los elementos en columna */
+}
+
+.side-menu:hover {
+  width: 300px;
+}
+
+.side-menu li {
+  width: 300px;
+}
+
+.side-menu li span {
+  font-size: 1rem;
+  margin: 20px 30px 0 22px;
+}
+
+.side-menu li a {
+  display: block;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #FFF;
+  height: 60px;
+}
+
+.side-menu li a:hover,
+.side-menu li:first-child a {
+  background: #000000;
+}
+
+.side-menu li:last-child {
+  margin-bottom: 20px; /* Añade un margen inferior para que el menú no llegue al final */
+}
+
+/* Ocultar el menú en dispositivos móviles */
+@media (max-width: 768px) {
+  .side-menu {
+    display: none;
+  }
+}
