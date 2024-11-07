@@ -62,6 +62,7 @@ cd portfolio</code></pre>
 ![SideMenuyAboutMe](./src/assets/images/portfolio.jpg)
 ![Proyectos](./src/assets/images/proyectos.JPG)
 ![Habilidades](./src/assets/images/skills.JPG)
+![SideMenuyAboutMe](./public/src/assets/images/portfolio.jpg)
 
 <h2>📝 Licencia</h2>
 <p>Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo <a href="LICENSE">LICENSE</a>.</p>
