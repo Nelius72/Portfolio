@@ -57,9 +57,8 @@ cd portfolio</code></pre>
 </code></pre>
 
 <h2>📷 Capturas de Pantalla</h2>
-![SideMenu y AboutMe](./src/assets/images/SideyAboutMe.JPG)
-![Proyectos](./src/assets/images/proyectos.JPG)
-![Habilidades](./src/assets/images/skills.JPG)
+![SideMenuyAboutMe](./src/assets/images/portfolio.jpg)
+
 
 <h2>📝 Licencia</h2>
 <p>Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo <a href="LICENSE">LICENSE</a>.</p>
