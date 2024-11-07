@@ -91,7 +91,7 @@ class Proyectos extends Component {
               </div>
             </div>
           </div>
-          <div className="col" ontouchstart="this.classList.toggle('hover');" onClick={() => window.open("https://github.com/Nelius72/portfolio", "_blank")}>
+          <div className="col" ontouchstart="this.classList.toggle('hover');" onClick={() => window.open("https://github.com/Nelius72/Portfolio", "_blank")}>
             <div className="container">
               <div
                 className="front"
