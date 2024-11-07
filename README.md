@@ -1,8 +1,9 @@
 <h1>Portfolio Web Personal</h1>
 
-<p><img src="URL_DE_TU_IMAGEN_DE_PORTADA" alt="Portfolio Web" /></p>
+![Portfolio Web](./src/assets/images/portfolio.jpg)
 
-<p>Este repositorio contiene el código fuente de mi portafolio web personal, desarrollado con <strong>React</strong> y otras tecnologías web modernas. El portafolio tiene como objetivo mostrar mis proyectos, habilidades y experiencia profesional de manera interactiva y visualmente atractiva.</p>
+
+<p>Este repositorio contiene el código fuente de mi portfolio web personal, desarrollado con <strong>React</strong> y otras tecnologías web modernas. El portfolio tiene como objetivo mostrar mis proyectos, habilidades y experiencia profesional de manera interactiva y visualmente atractiva.</p>
 
 <h2>🚀 Tecnologías Utilizadas</h2>
 <ul>
@@ -57,13 +58,17 @@ cd portfolio</code></pre>
 </code></pre>
 
 <h2>📷 Capturas de Pantalla</h2>
-<p><img src="URL_DE_TU_IMAGEN" alt="Captura de pantalla 1" /></p>
-<p><img src="URL_DE_TU_IMAGEN" alt="Captura de pantalla 2" /></p>
+
+![Side Menu y AboutMe](./src/assets/images/SideyAboutMe.JPG)
+![Proyectos](./src/assets/images/proyectos.JPG)
+![Habilidades](./src/assets/images/skills.JPG)
+
+
 
 <h2>📝 Licencia</h2>
 <p>Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo <a href="LICENSE">LICENSE</a>.</p>
 
 <h2>📬 Contacto</h2>
 <p><strong>Cornelio Romero Borrero</strong><br>
-<a href="mailto:tuemail@example.com">tuemail@example.com</a><br>
-<a href="URL_DE_TU_PERFIL">LinkedIn</a></p>
+<a href="mailto:cornelioromeroborrero@gmail.com">cornelioromeroborrero@gmail.com</a><br>
+<a href="www.linkedin.com/in/cornelio-romero-borrero-098055a5">LinkedIn</a></p>
