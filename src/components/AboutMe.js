@@ -15,7 +15,7 @@ class AboutMe extends Component {
         </div>
         <div className={styles.content}>
           <h1>Hola, soy Cornelio Romero</h1>
-          <h2 className={styles.gradientText}>Fullstack Junior Developer |JavaScript | Java | PHP | Angular | NodeJs | HTML5 | CSS3 | SQL/NoSQL</h2>
+          <h2 className={styles.gradientText}>Fullstack Junior Developer |JavaScript | React | Angular | Java | PHP | NodeJs | HTML5 | CSS3 | SQL/NoSQL</h2>
           <p>Más sobre mí:</p>
           <p>
             <span>
