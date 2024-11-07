@@ -1,6 +1,8 @@
 <h1>Portfolio Web Personal</h1>
 
 ![Portfolio Web](./src/assets/images/portfolio.jpg)
+![Proyectos](./src/assets/images/proyectos.JPG)
+![Habilidades](./src/assets/images/skills.JPG)
 
 <p>Este repositorio contiene el código fuente de mi portfolio web personal, desarrollado con <strong>React</strong> y otras tecnologías web modernas. El portfolio tiene como objetivo mostrar mis proyectos, habilidades y experiencia profesional de manera interactiva y visualmente atractiva.</p>
 
@@ -58,7 +60,8 @@ cd portfolio</code></pre>
 
 <h2>📷 Capturas de Pantalla</h2>
 ![SideMenuyAboutMe](./src/assets/images/portfolio.jpg)
-
+![Proyectos](./src/assets/images/proyectos.JPG)
+![Habilidades](./src/assets/images/skills.JPG)
 
 <h2>📝 Licencia</h2>
 <p>Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo <a href="LICENSE">LICENSE</a>.</p>
